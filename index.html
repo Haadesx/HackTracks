@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HACK TRACKS - AI-Powered Emotional Wellness Through Music & Therapy. Real-time emotion detection, personalized music recommendations, and AI therapy sessions.">
+    <meta name="keywords" content="emotion detection, AI therapy, music recommendation, mental health, wellness, Spotify, Gemini AI">
+    <meta name="author" content="HACK TRACKS Team">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hack-tracks.tech/">
+    <meta property="og:title" content="HACK TRACKS - AI Emotional Wellness Platform">
+    <meta property="og:description" content="Transform your mood with AI-powered music therapy and emotional support">
+    <meta property="og:image" content="https://hack-tracks.tech/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://hack-tracks.tech/">
+    <meta property="twitter:title" content="HACK TRACKS - AI Emotional Wellness">
+    <meta property="twitter:description" content="Transform your mood with AI-powered music therapy">
+    <meta property="twitter:image" content="https://hack-tracks.tech/twitter-image.jpg">
+    
+    <title>HACK TRACKS | AI-Powered Emotional Wellness Platform</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎵</text></svg>">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Anime.js -->
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.2/lib/anime.min.js"></script>
+</head>
+<body>
+    
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">
+                <span class="logo-icon">🎵</span>
+                <span>HACK TRACKS</span>
+            </a>
+            
+            <div class="nav-links">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#how-it-works" class="nav-link">How It Works</a>
+                <a href="#tech" class="nav-link">Technology</a>
+                <a href="app.html" class="btn-primary">Launch App</a>
+            </div>
+            
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-bg">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <div class="badge-dot"></div>
+                    <span>RU Hacks 2025 Winner Project</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    Transform Your Mood with
+                    <span class="gradient-text">AI-Powered Wellness</span>
+                </h1>
+                
+                <p class="hero-subtitle">
+                    HACK TRACKS combines advanced emotion detection, personalized music therapy, 
+                    and conversational AI to support your mental well-being. Experience the future 
+                    of emotional wellness today.
+                </p>
+                
+                <div class="hero-cta">
+                    <a href="app.html" class="btn-primary btn-hero">
+                        <span>Launch App</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 10h12m0 0l-6-6m6 6l-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    <a href="enhanced_emotion_standalone.html" class="btn-secondary btn-hero">
+                        <span>Enhanced Detection</span>
+                    </a>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-value">68</div>
+                        <div class="stat-label">Accuracy</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">7</div>
+                        <div class="stat-label">Emotions</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">100</div>
+                        <div class="stat-label">Real-time</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="visual-card card-1">
+                    <div class="card-icon">😊</div>
+                    <div class="card-text">Happy</div>
+                    <div class="card-progress"></div>
+                </div>
+                <div class="visual-card card-2">
+                    <div class="card-icon">🎵</div>
+                    <div class="card-text">Upbeat Mix</div>
+                    <div class="card-progress"></div>
+                </div>
+                <div class="visual-card card-3">
+                    <div class="card-icon">🤖</div>
+                    <div class="card-text">AI Therapy</div>
+                    <div class="card-progress"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- FEATURES SECTION -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Powerful Features for <span class="gradient-text">Your Wellness</span></h2>
+                <p class="section-subtitle">Everything you need to improve your emotional health, all in one platform</p>
+            </div>
+            
+            <div class="features-grid">
+                <!-- Feature 1: Emotion Detection -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <div class="icon-bg"></div>
+                        <span>🎭</span>
+                    </div>
+                    <h3 class="feature-title">Real-Time Emotion Detection</h3>
+                    <p class="feature-desc">
+                        Our advanced CNN model, trained on the FER2013 dataset, accurately detects 
+                        your emotional state in real-time using your device's camera.
+                    </p>
+                    <ul class="feature-list">
+                        <li>68%+ balanced accuracy</li>
+                        <li>7 emotion categories</li>
+                        <li>Instant feedback</li>
+                        <li>Privacy-focused processing</li>
+                    </ul>
+                </div>
+                
+                <!-- Feature 2: Music Therapy -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <div class="icon-bg"></div>
+                        <span>🎵</span>
+                    </div>
+                    <h3 class="feature-title">Personalized Music Therapy</h3>
+                    <p class="feature-desc">
+                        Get AI-curated music recommendations from Spotify that match and enhance 
+                        your emotional state, powered by Google Gemini AI.
+                    </p>
+                    <ul class="feature-list">
+                        <li>Spotify integration</li>
+                        <li>Gemini AI song suggestions</li>
+                        <li>Location-based personalization</li>
+                        <li>Dynamic playlists</li>
+                    </ul>
+                </div>
+                
+                <!-- Feature 3: AI Therapy -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <div class="icon-bg"></div>
+                        <span>🤖</span>
+                    </div>
+                    <h3 class="feature-title">Conversational AI Therapy</h3>
+                    <p class="feature-desc">
+                        Engage in therapeutic conversations with our ElevenLabs-powered AI agent, 
+                        designed to provide emotional support and evidence-based guidance.
+                    </p>
+                    <ul class="feature-list">
+                        <li>Natural voice conversations</li>
+                        <li>Professional therapeutic approaches</li>
+                        <li>Available 24/7</li>
+                        <li>Personalized sessions</li>
+                    </ul>
+                </div>
+                
+                <!-- Feature 4: Location Awareness -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <div class="icon-bg"></div>
+                        <span>📍</span>
+                    </div>
+                    <h3 class="feature-title">Location-Based Personalization</h3>
+                    <p class="feature-desc">
+                        Experience tailored recommendations that consider your cultural context 
+                        and local preferences for a more relevant experience.
+                    </p>
+                    <ul class="feature-list">
+                        <li>Automatic location detection</li>
+                        <li>Cultural music preferences</li>
+                        <li>Time-zone aware</li>
+                        <li>Local events integration</li>
+                    </ul>
+                </div>
+                
+                <!-- Feature 5: Beautiful UI -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <div class="icon-bg"></div>
+                        <span>✨</span>
+                    </div>
+                    <h3 class="feature-title">Stunning User Experience</h3>
+                    <p class="feature-desc">
+                        Enjoy a beautiful, intuitive interface with smooth animations and 
+                        professional design that makes wellness feel effortless.
+                    </p>
+                    <ul class="feature-list">
+                        <li>Modern, clean design</li>
+                        <li>Smooth animations</li>
+                        <li>Responsive across devices</li>
+                        <li>Accessibility-focused</li>
+                    </ul>
+                </div>
+                
+                <!-- Feature 6: Privacy & Security -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <div class="icon-bg"></div>
+                        <span>🔒</span>
+                    </div>
+                    <h3 class="feature-title">Privacy-First Approach</h3>
+                    <p class="feature-desc">
+                        Your emotional data and personal information are processed securely 
+                        with encryption and never shared without your explicit consent.
+                    </p>
+                    <ul class="feature-list">
+                        <li>End-to-end encryption</li>
+                        <li>No data selling</li>
+                        <li>GDPR compliant</li>
+                        <li>Local processing options</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- HOW IT WORKS SECTION -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">How <span class="gradient-text">HACK TRACKS</span> Works</h2>
+                <p class="section-subtitle">Four simple steps to transform your emotional wellness</p>
+            </div>
+            
+            <div class="steps">
+                <!-- Step 1 -->
+                <div class="step">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Capture Your Emotion</h3>
+                        <p class="step-desc">
+                            Use your device's camera to capture a photo. Our advanced AI model 
+                            analyzes your facial expression in real-time to detect your current 
+                            emotional state from 7 possible emotions.
+                        </p>
+                    </div>
+                    <div class="step-visual">
+                        <div class="visual-placeholder">📸</div>
+                    </div>
+                </div>
+                
+                <!-- Step 2 -->
+                <div class="step">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Get AI Analysis</h3>
+                        <p class="step-desc">
+                            Receive an in-depth analysis of your emotional state from Google Gemini AI. 
+                            Get insights, support, and personalized messages that speak directly to you 
+                            in a compassionate, therapeutic manner.
+                        </p>
+                    </div>
+                    <div class="step-visual">
+                        <div class="visual-placeholder">🧠</div>
+                    </div>
+                </div>
+                
+                <!-- Step 3 -->
+                <div class="step">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Discover Personalized Music</h3>
+                        <p class="step-desc">
+                            Explore curated music recommendations from Spotify, tailored to your 
+                            emotional needs. Our AI suggests specific songs and creates playlists 
+                            that resonate with your current state and location.
+                        </p>
+                    </div>
+                    <div class="step-visual">
+                        <div class="visual-placeholder">🎶</div>
+                    </div>
+                </div>
+                
+                <!-- Step 4 -->
+                <div class="step">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Engage in AI Therapy</h3>
+                        <p class="step-desc">
+                            Start a conversational therapy session with our ElevenLabs-powered AI agent. 
+                            Experience natural, voice-based interactions designed to provide emotional 
+                            support and evidence-based therapeutic guidance.
+                        </p>
+                    </div>
+                    <div class="step-visual">
+                        <div class="visual-placeholder">💬</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- TECH STACK SECTION -->
+    <section id="tech" class="tech-stack">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Built with <span class="gradient-text">Cutting-Edge Tech</span></h2>
+                <p class="section-subtitle">Powered by the best tools and APIs in AI and machine learning</p>
+            </div>
+            
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <div class="tech-logo">🧠</div>
+                    <h4 class="tech-name">Google Gemini AI</h4>
+                    <p class="tech-desc">Advanced language model for mood analysis and song suggestions</p>
+                </div>
+                
+                <div class="tech-item">
+                    <div class="tech-logo">🗣️</div>
+                    <h4 class="tech-name">ElevenLabs</h4>
+                    <p class="tech-desc">Natural voice synthesis and conversational AI therapy</p>
+                </div>
+                
+                <div class="tech-item">
+                    <div class="tech-logo">🎵</div>
+                    <h4 class="tech-name">Spotify API</h4>
+                    <p class="tech-desc">Comprehensive music catalog and playlist management</p>
+                </div>
+                
+                <div class="tech-item">
+                    <div class="tech-logo">🔥</div>
+                    <h4 class="tech-name">PyTorch</h4>
+                    <p class="tech-desc">Deep learning framework for emotion detection model</p>
+                </div>
+                
+                <div class="tech-item">
+                    <div class="tech-logo">👁️</div>
+                    <h4 class="tech-name">OpenCV</h4>
+                    <p class="tech-desc">Computer vision library for real-time face detection</p>
+                </div>
+                
+                <div class="tech-item">
+                    <div class="tech-logo">⚡</div>
+                    <h4 class="tech-name">Streamlit</h4>
+                    <p class="tech-desc">Fast, beautiful web application framework</p>
+                </div>
+                
+                <div class="tech-item">
+                    <div class="tech-logo">🏗️</div>
+                    <h4 class="tech-name">ResNet-34</h4>
+                    <p class="tech-desc">Advanced CNN architecture for emotion classification</p>
+                </div>
+                
+                <div class="tech-item">
+                    <div class="tech-logo">📍</div>
+                    <h4 class="tech-name">Location API</h4>
+                    <p class="tech-desc">Intelligent location-based personalization</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- STATISTICS SECTION -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 3rem; text-align: center; padding: 4rem 0;">
+                <div>
+                    <div class="stat-value" style="font-size: 3.5rem; font-weight: 900; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">35K+</div>
+                    <div class="stat-label" style="color: #a0a0b0; margin-top: 0.5rem;">Training Images</div>
+                </div>
+                <div>
+                    <div class="stat-value" style="font-size: 3.5rem; font-weight: 900; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">68%</div>
+                    <div class="stat-label" style="color: #a0a0b0; margin-top: 0.5rem;">Accuracy Rate</div>
+                </div>
+                <div>
+                    <div class="stat-value" style="font-size: 3.5rem; font-weight: 900; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">&lt;100ms</div>
+                    <div class="stat-label" style="color: #a0a0b0; margin-top: 0.5rem;">Processing Time</div>
+                </div>
+                <div>
+                    <div class="stat-value" style="font-size: 3.5rem; font-weight: 900; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">24/7</div>
+                    <div class="stat-label" style="color: #a0a0b0; margin-top: 0.5rem;">AI Support</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA SECTION -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 class="cta-title">Ready to Transform Your Wellness?</h2>
+            <p class="cta-subtitle">Join thousands using AI-powered emotional support</p>
+            <div class="cta-buttons">
+                <a href="app.html" class="btn-primary btn-hero" style="background: white; color: #667eea;">
+                    <span>Launch App Now</span>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M4 10h12m0 0l-6-6m6 6l-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+                <a href="https://github.com/yourusername/hacktracks" class="btn-secondary btn-hero" style="border-color: white; color: white;">
+                    <span>View on GitHub</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <div class="logo">
+                        <span class="logo-icon">🎵</span>
+                        <span>HACK TRACKS</span>
+                    </div>
+                    <p class="footer-desc">
+                        AI-powered emotional wellness platform combining advanced emotion detection, 
+                        personalized music therapy, and conversational AI support.
+                    </p>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Product</h4>
+                    <a href="#features">Features</a>
+                    <a href="#how-it-works">How It Works</a>
+                    <a href="#tech">Technology</a>
+                    <a href="app.html">Launch App</a>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <a href="README.md">Documentation</a>
+                    <a href="DEPLOYMENT.md">Deployment Guide</a>
+                    <a href="https://github.com/yourusername/hacktracks">GitHub</a>
+                    <a href="#">API Reference</a>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Connect</h4>
+                    <a href="mailto:contact@hack-tracks.tech">Contact Us</a>
+                    <a href="#">Report Bug</a>
+                    <a href="#">Request Feature</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 HACK TRACKS. Built for RU Hacks 2025. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://github.com/yourusername">GitHub</a>
+                    <a href="https://twitter.com/yourusername">Twitter</a>
+                    <a href="https://linkedin.com/company/hacktracks">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Scripts -->
+    <script src="app.js"></script>
+    
+</body>
+</html>
